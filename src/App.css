@@ -2,13 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.site-nav {
-  position: sticky;
-  top: 0;
-  background-color: white;
-  z-index: 1000;
-}
-
 section {
   min-height: 90vh;
   display: flex;
@@ -18,3 +11,18 @@ section {
   padding: 2rem;
 }
 
+.header-nav-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white; /* یا #222 برای هدر تاریک */
+}
+.site-header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.site-nav {
+  background-color: white;
+}

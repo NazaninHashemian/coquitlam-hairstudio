@@ -3,7 +3,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
-import NavBar from "./components/NavBar/NavBar";
+// import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Header />
-      <NavBar />
+      {/* <NavBar /> */}
 
       <Home />
       <About />

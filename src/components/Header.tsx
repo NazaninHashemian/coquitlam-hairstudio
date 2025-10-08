@@ -1,10 +1,14 @@
+import NavBar from "./NavBar/NavBar";
+
 function Header() {
   return (
-    <header
-      style={{ backgroundColor: "#222", padding: "20px", color: "white" }}
-    >
-      <h2>Coquitlam Hair Studio</h2>
-    </header>
+    <div className="header-nav-wrapper">
+      <header className="site-header">
+        <h1>Coquitlam Hair Studio</h1>
+        <p>Your style, your confidence</p>
+      </header>
+      <NavBar />
+    </div>
   );
 }
 
