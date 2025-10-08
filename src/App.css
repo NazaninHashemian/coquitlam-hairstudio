@@ -15,8 +15,19 @@ main> p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-style: solid;
+}
+.top {
+  border-style: dashed;
+  flex-direction: row;
+  gap:20%;
+}
+.buttom {
+  border-style: dashed;
 }
 main{
-  height: 100vh;
-  gap: 100px;
+  height: 90vh;
+  gap: 18%;
+  flex-direction: column;
+
 }

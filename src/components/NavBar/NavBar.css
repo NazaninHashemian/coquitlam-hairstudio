@@ -1,0 +1,30 @@
+/* Nav container */
+.site-nav {
+    display: flex;
+    justify-content: center; /* center items horizontally */
+  }
+  
+  /* UL reset + row layout */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* force horizontal layout */
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Links */
+  .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .nav-item a:hover {
+    background: rgba(0,0,0,0.05);
+  }
+  
