@@ -2,7 +2,7 @@
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./app.css";
+import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
@@ -10,7 +10,11 @@ function App() {
     <div>
       <Header />
       <main>
-        <section className="top">
+        <section className="sec1">
+          <NavBar />
+        </section>
+
+        <section className="sec2">
           <section className="left">
             <h1>Welcome!</h1>
           </section>
@@ -20,10 +24,6 @@ function App() {
             <p>3320 Rosalie Crt, Coquitlam, British Colombia, Canada V3E 2Z8</p>
             <p>647-877-3029</p>
           </section>
-        </section>
-
-        <section className="buttom">
-          <NavBar />
         </section>
       </main>
 

@@ -1,7 +1,9 @@
 /* Nav container */
 .site-nav {
     display: flex;
+    align-items: center;
     justify-content: center; /* center items horizontally */
+    width: 80%;
   }
   
   /* UL reset + row layout */
@@ -9,9 +11,12 @@
     list-style: none;
     display: flex;
     flex-direction: row; /* force horizontal layout */
-    gap: 20px;
-    padding: 0;
+    gap: 10%;
+    padding: 5px 80px;
     margin: 0;
+    align-items: flex-start;
+    /* background-color: antiquewhite; */
+    width: 100%;
   }
   
   /* Links */
@@ -19,12 +24,15 @@
     text-decoration: none;
     color: #333;
     font-weight: 500;
-    padding: 8px 12px;
+    padding: 5px 10px;
     border-radius: 4px;
     transition: background 0.2s ease-in-out;
+    border:1px solid rgba(0,0,0,0.05);
+    background: rgba(0,0,0,0.05);
   }
   
   .nav-item a:hover {
-    background: rgba(0,0,0,0.05);
+    /* background: rgba(0,0,0,0.15); */
+    border:1px solid rgba(0,0,0,0.5);
   }
   

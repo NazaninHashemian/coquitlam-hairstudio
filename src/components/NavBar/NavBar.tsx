@@ -1,4 +1,5 @@
 import React from "react";
+import "./NavBar.css";
 
 const NavBar: React.FC = () => {
   return (
@@ -15,6 +16,15 @@ const NavBar: React.FC = () => {
         </li>
         <li className="nav-item">
           <a href="#contact">Contact</a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="https://www.instagram.com/coquitlam_hair_studio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
         </li>
       </ul>
     </nav>
