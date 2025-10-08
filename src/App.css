@@ -2,15 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-.site-nav {
+/* .site-nav {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1000;
-}
+} */
 
-.section {
-  min-height: 100vh;
+section {
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
