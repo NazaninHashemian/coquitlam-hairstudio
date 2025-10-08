@@ -8,11 +8,11 @@ function App() {
   return (
     <div>
       <Header />
-      <main style={{ textAlign: "center", marginTop: "50px" }}>
+      <main>
         <h1>Welcome!</h1>
         <p>Experience the best hair styling services in Coquitlam.</p>
-        <hr />
         <p>3320 Rosalie Crt, Coquitlam, British Colombia, Canada V3E 2Z8</p>
+        <p>647-877-3029</p>
       </main>
       <Footer />
     </div>
