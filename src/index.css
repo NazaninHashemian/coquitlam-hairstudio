@@ -1,0 +1,42 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full height for html, body, and root */
+html, body, #root {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Main section fills the space between header and footer */
+main {
+  flex: 1; /* Take up all remaining space */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically and horizontally */
+  background-color: #f9f9f9;
+}
+
+/* Footer always sticks to the bottom */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;   /* Footer is fixed at the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
