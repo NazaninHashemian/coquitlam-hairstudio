@@ -2,12 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
-/* .site-nav {
+.site-nav {
   position: sticky;
   top: 0;
   background-color: white;
   z-index: 1000;
-} */
+}
 
 section {
   min-height: 90vh;
