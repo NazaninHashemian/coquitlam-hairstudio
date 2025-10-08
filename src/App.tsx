@@ -9,10 +9,15 @@ function App() {
     <div>
       <Header />
       <main>
-        <h1>Welcome!</h1>
-        <p>Experience the best hair styling services in Coquitlam.</p>
-        <p>3320 Rosalie Crt, Coquitlam, British Colombia, Canada V3E 2Z8</p>
-        <p>647-877-3029</p>
+        <section className="left">
+          <h1>Welcome!</h1>
+        </section>
+
+        <section className="right">
+          <p>Experience the best hair styling services in Coquitlam.</p>
+          <p>3320 Rosalie Crt, Coquitlam, British Colombia, Canada V3E 2Z8</p>
+          <p>647-877-3029</p>
+        </section>
       </main>
       <Footer />
     </div>

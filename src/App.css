@@ -2,7 +2,21 @@ main> p {
   margin: 30px;
   font-size: 22px;
 }
-h1 {
-  margin-top: 200px;
-  margin-bottom: 50px;
+
+.right {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.left {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main{
+  height: 100vh;
+  gap: 100px;
 }
