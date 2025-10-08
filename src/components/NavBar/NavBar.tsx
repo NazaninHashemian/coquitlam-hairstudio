@@ -27,6 +27,11 @@ const NavBar: React.FC = () => {
           </a>
         </li>
       </ul>
+      {/* <img
+        src="/animation.jpg"
+        alt="Animation"
+        style={{ width: "6%", maxHeight: "300px", objectFit: "cover" }}
+      /> */}
     </nav>
   );
 };

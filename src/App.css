@@ -3,26 +3,38 @@ html {
 }
 
 section {
-  min-height: 90vh;
+  min-height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
+  /* background: linear-gradient(white, #fafafa); */
 }
 
 .header-nav-wrapper {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: white; /* یا #222 برای هدر تاریک */
+  /* background-color: #222;  */
 }
 .site-header {
   background-color: #222;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 50px;
 }
 .site-nav {
   background-color: white;
+}
+
+
+h2 {
+  font-size: 35px;
+  margin-top: 2px;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 8px;
 }
