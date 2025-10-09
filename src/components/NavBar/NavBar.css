@@ -3,7 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center; /* center items horizontally */
-    width: 80%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   /* UL reset + row layout */
@@ -13,9 +15,9 @@
     flex-direction: row; /* force horizontal layout */
     gap: 10%;
     padding: 5px 80px;
-    margin: 0;
     margin-top: 15px;
-    align-items: flex-start;
+    /* align-items: center; */
+    justify-content: flex-start;
     /* background-color: antiquewhite; */
     width: 100%;
   }
@@ -37,3 +39,19 @@
     border:2px solid rgba(0,0,0,0.6);
   }
   
+  @media (max-width:800px) {
+
+    .nav-list {
+      /* flex-direction: row; */
+      /* gap: 7%; */
+      /* padding: 5px 80px; */
+      justify-content: center;
+
+    }
+ }
+
+ @media (max-width:500px) {
+  .site-nav {
+    width: 99%;
+  }
+}
