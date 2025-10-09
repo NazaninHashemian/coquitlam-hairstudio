@@ -3,15 +3,31 @@ html {
 }
 
 section {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 60vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   /* padding: 1rem; */
   /* background: linear-gradient(white, #fafafa); */
 }
-
+section.first, section.second {
+  /* min-height: 60vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* padding: 1rem; */
+  /* background: linear-gradient(white, #fafafa); */
+}
+section.first{
+  align-items:flex-end;
+  width: 20%;
+}
 .header-nav-wrapper {
   position: sticky;
   top: 0;
