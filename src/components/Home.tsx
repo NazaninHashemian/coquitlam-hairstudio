@@ -5,7 +5,7 @@ function Home() {
       <img
         src={logoImg}
         alt="Animation"
-        style={{ width: "6%", maxHeight: "300px", objectFit: "cover" }}
+        style={{ width: "110px", maxHeight: "300px", objectFit: "cover" }}
       />
       <h1>Welcome to Coquitlam Hair Studio</h1>
       <p>Experience the best hair styling services in Coquitlam.</p>

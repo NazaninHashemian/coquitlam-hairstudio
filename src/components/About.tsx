@@ -5,7 +5,7 @@ function About() {
       <img
         src={animationImg}
         alt="Animation"
-        style={{ width: "6%", maxHeight: "300px", objectFit: "cover" }}
+        style={{ width: "100px", maxHeight: "300px", objectFit: "cover" }}
       />
       <h2>About Us</h2>
       <p>Experience the best haircut services in Coquitlam.</p>
