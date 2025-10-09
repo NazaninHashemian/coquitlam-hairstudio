@@ -13,7 +13,11 @@ function About() {
       <section className="second">
         <h2>About Us</h2>
         <p>Experience the best haircut services in Coquitlam.</p>
-        <p>3320 Rosalie Crt, Coquitlam, British Columbia, Canada V3E 2Z8</p>
+        {/* <section className="third"> */}
+        <p>3320 Rosalie Crt, Coquitlam, British Columbia, Canada</p>
+        <p>V3E 2Z8</p>
+        {/* </section> */}
+
         <p>647-877-3029</p>
       </section>
     </section>
