@@ -11,7 +11,7 @@ function Home() {
       </section>
 
       <section className="second">
-        <h1>Welcome to Coquitlam Hair Studio</h1>
+        <h2>Welcome to Coquitlam Hair Studio</h2>
         <p>Experience the best hair styling services in Coquitlam.</p>
       </section>
     </section>
