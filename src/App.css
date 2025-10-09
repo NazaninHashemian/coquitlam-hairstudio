@@ -3,12 +3,12 @@ html {
 }
 
 section {
-  min-height: 55vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* background: linear-gradient(white, #fafafa); */
 }
 
