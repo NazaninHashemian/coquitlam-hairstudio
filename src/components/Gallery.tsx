@@ -2,7 +2,7 @@ import "./Gallery.css";
 import galleryImg from "../assets/gallery.jpg";
 function Gallery() {
   return (
-    <section id="contact" className="contact-section">
+    <section id="gallery" className="gallery-section">
       <section className="first">
         <img
           src={galleryImg}
