@@ -7,6 +7,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Reservation from "./components/Reservation";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Home />
       <About />
       <Contact />
-
+      <Reservation />
       <Footer />
     </div>
   );

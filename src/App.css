@@ -66,6 +66,13 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+input {
+  display: inline-block;
+  padding: 8px 10px;
+  margin: 20px 30px 50px;
+  width: 300px;
+}
 @media (max-width:1400px) {
   
   section {

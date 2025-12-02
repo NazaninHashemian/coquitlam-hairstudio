@@ -17,6 +17,9 @@ const NavBar: React.FC = () => {
         <li className="nav-item">
           <a href="#contact">Contact</a>
         </li>
+        {/* <li className="nav-item">
+          <a href="#contact">Reservation</a>
+        </li> */}
         <li className="nav-item">
           <a
             href="https://www.instagram.com/coquitlam_hair_studio/"
