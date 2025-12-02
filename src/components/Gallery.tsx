@@ -1,36 +1,38 @@
 import "./Gallery.css";
-import galleryImg from "../assets/gallery.jpg";
-function Gallery() {
+import galleryImg from "../assets/gallery.jpg"; // main gallery image
+import hair1 from "../assets/1.webp";
+import hair2 from "../assets/2.webp";
+import hair3 from "../assets/3.webp";
+import hair4 from "../assets/4.webp";
+import hair5 from "../assets/5.webp";
+import hair6 from "../assets/6.webp";
+import hair7 from "../assets/7.jpeg";
+import hair8 from "../assets/8.jpeg";
+
+const Gallery = () => {
+  const haircuts = [hair1, hair2, hair3, hair4, hair5, hair6, hair7, hair8];
+
   return (
     <section id="gallery" className="gallery-section">
-      <section className="first">
+      {/* Main image + title/description */}
+      <div className="gallery-header">
         <img
           src={galleryImg}
-          alt="Animation"
-          style={{ width: "15w0px", maxHeight: "300px", objectFit: "cover" }}
+          alt="Gallery Animation"
+          style={{ width: "150px", maxHeight: "300px", objectFit: "cover" }}
         />
-      </section>
-      <section className="second">
-        <div className="gallery-grid">
-          <img src="1.webp" alt="Haircut example 1" />
-          <img src="2.webp" alt="Haircut example 2" />
-          <img src="3.webp" alt="Haircut example 3" />
-          <img src="4.webp" alt="Haircut example 4" />
-          <img src="5.webp" alt="Haircut example 5" />
-          <img src="6.webp" alt="Haircut example 6" />
-          <img src="7.jpeg" alt="Haircut example 7" />
-          <img src="8.jpeg" alt="Haircut example 8" />
-        </div>
-      </section>
+        <h2>Gallery</h2>
+        <p>Here are some examples of our haircuts and styles.</p>
+      </div>
+
+      {/* Haircut grid */}
+      <div className="gallery-grid">
+        {haircuts.map((img, idx) => (
+          <img key={idx} src={img} alt={`Haircut example ${idx + 1}`} />
+        ))}
+      </div>
     </section>
-
-    // <section id="gallery" className="section gallery-section">
-    //   <div className="gallery-header">
-    //     <img src="1.webp" alt="Haircut example 1" />
-    //   </div>
-
-    // </section>
   );
-}
+};
 
 export default Gallery;
