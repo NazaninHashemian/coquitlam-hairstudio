@@ -7,6 +7,7 @@ import "./App.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
+import Gallery from "./components/NavBar/Gallery";
 // import Reservation from "./components/Reservation";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <About />
       <Contact />
+      <Gallery />
       {/* <Reservation /> */}
       <Footer />
     </div>
