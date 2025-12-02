@@ -18,7 +18,7 @@ const NavBar: React.FC = () => {
           <a href="#contact">Contact</a>
         </li>
         {/* <li className="nav-item">
-          <a href="#contact">Reservation</a>
+          <a href="#reservation">Reservation</a>
         </li> */}
         <li className="nav-item">
           <a
