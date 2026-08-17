@@ -1,0 +1,7 @@
+//# allFunctionsCalledOnLoad
+loaded_h_0(function(_){var window=this;
+_.v("sg");
+var fvI;_.th("sg",{init:function(a){if(!fvI){fvI=new _.y$b(_.x$b);a.ac&&(fvI.ka=a.ac);a.iw&&(fvI.Ca=a.iw);a.sw&&(fvI.Ma=a.sw);a.sc&&(fvI.Ka=a.sc);if(a.sbgc){var b=_.ub(_.g$b,a.sbgc);fvI.yNc=b}a.cbs&&(fvI.Ua=a.cbs);if(a.cb){b=fvI;var c=new Map(Object.entries(a.cb));b.a8b=c}a.squ&&(fvI.Ya=a.squ);let d;b=fvI;a=(d=a.cbslk)!=null?d:!1;b.Oa=a;fvI.setup()}}});document.addEventListener("sglacte",a=>{a.preventDefault();a=new _.y$b(_.x$b);a.ka=!0;a.setup()});
+_.x();
+});
+// Google Inc.
